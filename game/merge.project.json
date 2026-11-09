@@ -1,0 +1,143 @@
+{
+  "name": "MergeCubeFactory",
+  "tree": {
+    "$className": "DataModel",
+    "ReplicatedStorage": {
+      "Core": {
+        "$path": "src/core/shared"
+      },
+      "CoreClient": {
+        "$path": "src/core/client"
+      },
+      "Game": {
+        "$path": "src/merge/shared"
+      }
+    },
+    "ServerStorage": {
+      "Vendor": {
+        "$className": "Folder",
+        "ProfileStore": {
+          "$path": "vendor/ProfileStore/ProfileStore.luau"
+        }
+      }
+    },
+    "ServerScriptService": {
+      "CoreServer": {
+        "$path": "src/core/server"
+      },
+      "GameServer": {
+        "$path": "src/merge/server"
+      }
+    },
+    "StarterPlayer": {
+      "$properties": {
+        "CameraMaxZoomDistance": 40,
+        "CameraMinZoomDistance": 6,
+        "CameraMode": "Classic",
+        "DevCameraOcclusionMode": "Invisicam",
+        "DevComputerCameraMovementMode": "Follow",
+        "DevTouchCameraMovementMode": "Follow"
+      },
+      "StarterPlayerScripts": {
+        "GameClient": {
+          "$path": "src/merge/client"
+        }
+      }
+    },
+    "Workspace": {
+      "$properties": {
+        "Gravity": 196.2
+      },
+      "Baseplate": {
+        "$className": "Part",
+        "$properties": {
+          "Anchored": true,
+          "Size": [
+            700,
+            4,
+            700
+          ],
+          "Color": [
+            0.29,
+            0.6,
+            0.86
+          ],
+          "Material": "Sand",
+          "TopSurface": "Smooth",
+          "CFrame": {
+            "CFrame": {
+              "position": [
+                0,
+                -6,
+                0
+              ],
+              "orientation": [
+                [
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  1
+                ]
+              ]
+            }
+          }
+        }
+      },
+      "SpawnLocation": {
+        "$className": "SpawnLocation",
+        "$properties": {
+          "Anchored": true,
+          "Size": [
+            12,
+            1,
+            12
+          ],
+          "Neutral": true,
+          "Transparency": 1,
+          "CanCollide": false,
+          "CFrame": {
+            "CFrame": {
+              "position": [
+                30,
+                1.6,
+                0
+              ],
+              "orientation": [
+                [
+                  1,
+                  0,
+                  0
+                ],
+                [
+                  0,
+                  1,
+                  0
+                ],
+                [
+                  0,
+                  0,
+                  1
+                ]
+              ]
+            }
+          }
+        }
+      }
+    },
+    "Lighting": {
+      "$properties": {
+        "ClockTime": 14,
+        "Brightness": 2
+      }
+    }
+  }
+}

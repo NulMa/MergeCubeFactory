@@ -1,0 +1,4 @@
+Source: https://github.com/MadStudioRoblox/ProfileStore
+Commit: 45c9847cbcf1fc260369c50eb335aba7c35aecdd
+Fetched: 2026-10-17
+License: Apache-2.0 (see LICENSE). Unmodified.

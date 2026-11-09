@@ -1,0 +1,6 @@
+tools/bin/
+tools/globalTypes.d.luau
+build/
+sourcemap.json
+*.rbxl.lock
+.asphalt-debug/
